@@ -1,0 +1,20 @@
+{
+"name":"AutoCapcha",
+"desciption":"Fills in the captcha for you at VIT University Logins ",
+"version":"1.0",
+"author": "Aman",
+"manifest_version":2,
+"permission":[
+"*://vtopbeta.vit.ac.in/vtop/*"
+],
+
+"content_script": [
+    {
+      "matches": ["*://vtopbeta.vit.ac.in/vtop/*"],
+      "js": ["captcha.js"]
+    }
+
+		]
+
+}
+
